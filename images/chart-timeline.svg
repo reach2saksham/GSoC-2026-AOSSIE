@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 496" width="760" height="496" class="viz" role="img" aria-label="Timeline of pull requests per project">
+  <style>
+    .viz { --surface: #fcfcfb; --ink: #0b0b0b; --ink2: #52514e; --muted: #8a8984; --grid: #e6e5e1;
+           --s1: #2a78d6; --s2: #eb6834; --s3: #8a8984; }
+    @media (prefers-color-scheme: dark) {
+      .viz { --surface: #1a1a19; --ink: #f0efec; --ink2: #c3c2b7; --muted: #8f8e88; --grid: #2e2e2c;
+             --s1: #3987e5; --s2: #d95926; --s3: #8f8e88; }
+    }
+    .bg { fill: var(--surface); }
+    text { font-family: -apple-system, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--ink2); font-size: 13px; }
+    .title { fill: var(--ink); font-size: 16px; font-weight: 600; }
+    .sub { fill: var(--muted); font-size: 12px; }
+    .label { fill: var(--ink); }
+    .value { fill: var(--ink2); font-size: 12px; font-variant-numeric: tabular-nums; }
+    .grid { stroke: var(--grid); stroke-width: 1; }
+    .s1 { fill: var(--s1); } .s2 { fill: var(--s2); }
+    .ring1 { fill: var(--s1); stroke: var(--surface); stroke-width: 2; }
+    .ring2 { fill: none; stroke: var(--s2); stroke-width: 2; }
+    .ring3 { fill: none; stroke: var(--s3); stroke-width: 2; stroke-dasharray: 2 2; }
+  </style>
+<rect class="bg" width="760" height="496" rx="12"/>
+<text class="title" x="24" y="34">When each project shipped</text>
+<text class="sub" x="24" y="54">One dot per pull request, on the day it was opened (Feb – Nov 2026)</text>
+<circle class="ring1" cx="176" cy="75" r="5"/>
+<text x="188" y="79">Merged</text>
+<circle class="ring3" cx="254" cy="75" r="5"/>
+<text x="266" y="79">Closed</text>
+<line class="grid" x1="199.3" y1="84" x2="199.3" y2="442"/>
+<text class="sub" x="203.3" y="464">Mar</text>
+<line class="grid" x1="264.0" y1="84" x2="264.0" y2="442"/>
+<text class="sub" x="268.0" y="464">Apr</text>
+<line class="grid" x1="326.7" y1="84" x2="326.7" y2="442"/>
+<text class="sub" x="330.7" y="464">May</text>
+<line class="grid" x1="391.5" y1="84" x2="391.5" y2="442"/>
+<text class="sub" x="395.5" y="464">Jun</text>
+<line class="grid" x1="454.2" y1="84" x2="454.2" y2="442"/>
+<text class="sub" x="458.2" y="464">Jul</text>
+<line class="grid" x1="519.0" y1="84" x2="519.0" y2="442"/>
+<text class="sub" x="523.0" y="464">Aug</text>
+<line class="grid" x1="583.7" y1="84" x2="583.7" y2="442"/>
+<text class="sub" x="587.7" y="464">Sep</text>
+<line class="grid" x1="646.4" y1="84" x2="646.4" y2="442"/>
+<text class="sub" x="650.4" y="464">Oct</text>
+<line class="grid" x1="711.2" y1="84" x2="711.2" y2="442"/>
+<text class="sub" x="715.2" y="464">Nov</text>
+<text class="label" x="158" y="102" text-anchor="end">Stability Nexus &amp; Djed</text>
+<line class="grid" x1="170" y1="98" x2="730" y2="98"/>
+<circle class="ring1" cx="193.0" cy="98" r="6"><title>#33 fix: responsive layout, improved padding and alignment  for Dapps, Co… (merged, 2026-02-26)</title></circle>
+<circle class="ring1" cx="201.3" cy="98" r="6"><title>#42 feat: Hero section UI enhancement by central alignments (merged, 2026-03-02)</title></circle>
+<circle class="ring1" cx="201.3" cy="98" r="6"><title>#41 fix: footer social links are centrally aligned (merged, 2026-03-02)</title></circle>
+<circle class="ring1" cx="253.6" cy="98" r="6"><title>#49 feat: addition of alliance.svg and djed-logo.svg and replacing the png files across the landing page (merged, 2026-03-27)</title></circle>
+<circle class="ring1" cx="253.6" cy="98" r="6"><title>#44 feat: added djed logo svg and replaced the png file in protocols :page (merged, 2026-03-27)</title></circle>
+<text class="label" x="158" y="132" text-anchor="end">Resonate</text>
+<line class="grid" x1="170" y1="128" x2="730" y2="128"/>
+<circle class="ring1" cx="211.8" cy="128" r="6"><title>#321 fix: Favicon Visibility in new-design (merged, 2026-03-07)</title></circle>
+<circle class="ring1" cx="213.9" cy="128" r="6"><title>#325  Feature: Responsive Footer using BackgroundTile for new-design (merged, 2026-03-08)</title></circle>
+<circle class="ring1" cx="213.9" cy="128" r="6"><title>#327 Added a responsive, functional language switcher button in navbar (merged, 2026-03-08)</title></circle>
+<circle class="ring1" cx="253.6" cy="128" r="6"><title>#351 feat: add responsive hero section with scroll-based animation and smooth interaction (merged, 2026-03-27)</title></circle>
+<circle class="ring1" cx="387.3" cy="128" r="6"><title>#368 fix: adhering all the components with respect to l10n requirements (merged, 2026-05-30)</title></circle>
+<circle class="ring1" cx="393.6" cy="128" r="6"><title>#369 feat: Complete DownloadModal responsive implementation with OS detection, localization, WCAG 2.2 compliance (merged, 2026-06-02)</title></circle>
+<circle class="ring1" cx="401.9" cy="128" r="6"><title>#370 feat: added about-section, button component with improved design system, responsiveness and localization (merged, 2026-06-06)</title></circle>
+<circle class="ring1" cx="435.4" cy="128" r="6"><title>#373 feat(web): add metrics &amp; features sections, optimize website aspects (merged, 2026-06-22)</title></circle>
+<circle class="ring1" cx="531.5" cy="128" r="6"><title>#384 feat: standardize repository structure with Template-Repo-NextJS, GSoC checklist &amp; address mentor&#x27;s design suggestions (merged, 2026-08-07)</title></circle>
+<circle class="ring1" cx="541.9" cy="128" r="6"><title>#387 fix(ci): fix GitHub Pages deployment workflow and update best practices checklist (merged, 2026-08-12)</title></circle>
+<circle class="ring1" cx="541.9" cy="128" r="6"><title>#389 fix(ci): optimize GitHub Pages workflow and update best practices checklist (merged, 2026-08-12)</title></circle>
+<circle class="ring1" cx="541.9" cy="128" r="6"><title>#391 fix(ci): resolve merge conflicts and sync dev with main (merged, 2026-08-12)</title></circle>
+<circle class="ring1" cx="700.7" cy="128" r="6"><title>#401 perf/a11y polish + GSoC completion checklist (root SEO, tests, security policy, Scorecard) (merged, 2026-10-27)</title></circle>
+<circle class="ring1" cx="711.2" cy="128" r="6"><title>#411 Final GSoC checklist: legal and support pages, share button, deep links, security review, full test coverage (merged, 2026-11-01)</title></circle>
+<text class="label" x="158" y="162" text-anchor="end">AOSSIE Website</text>
+<line class="grid" x1="170" y1="158" x2="730" y2="158"/>
+<circle class="ring1" cx="253.6" cy="158" r="6"><title>#712 fix: added the missing green colour from the pulsating timeline dot animation in apply page (merged, 2026-03-27)</title></circle>
+<circle class="ring1" cx="253.6" cy="158" r="6"><title>#714 fix(hero): improve accessibility, contrast, and spacing on responsive viewports (merged, 2026-03-27)</title></circle>
+<circle class="ring1" cx="253.6" cy="158" r="6"><title>#716 feat: added djed logo svg and replaced the png file in projects page (merged, 2026-03-27)</title></circle>
+<circle class="ring3" cx="466.7" cy="158" r="6"><title>#732 fix: utilizing favicon in .ico and .svg format to try fix the search indexing icon issue (closed, 2026-07-07)</title></circle>
+<circle class="ring1" cx="516.9" cy="158" r="6"><title>#737 refactor(architecture,ui): upgrade website to Next.js 16 App Router, redesign Hero &amp; Projects sections (merged, 2026-07-31)</title></circle>
+<circle class="ring1" cx="539.9" cy="158" r="6"><title>#739 feat(hero,stats, ci, tests): added hero item, improved responsiveness, performance, testing, checklist (merged, 2026-08-11)</title></circle>
+<circle class="ring1" cx="544.0" cy="158" r="6"><title>#740 fix(ci): resolve next-intl prerender error and add PR deployment build verification (merged, 2026-08-13)</title></circle>
+<circle class="ring1" cx="544.0" cy="158" r="6"><title>#741 feat(pages, footer): reconstruct all website sections &amp; add statutory ABN/address footer (merged, 2026-08-13)</title></circle>
+<circle class="ring1" cx="638.1" cy="158" r="6"><title>#744 feat: rebuild home, projects, programs and about pages with verified content (merged, 2026-09-27)</title></circle>
+<circle class="ring1" cx="642.2" cy="158" r="6"><title>#745 feat: improving footer, partner CTAs, About partners section, 13 languages (merged, 2026-09-29)</title></circle>
+<circle class="ring1" cx="700.7" cy="158" r="6"><title>#749 fix(seo): per-page metadata and canonicals, security updates and GSoC checklist (merged, 2026-10-27)</title></circle>
+<circle class="ring1" cx="711.2" cy="158" r="6"><title>#759 Final GSoC checklist: legal and support pages, share button, security review, full test coverage (merged, 2026-11-01)</title></circle>
+<text class="label" x="158" y="192" text-anchor="end">Support Us Button</text>
+<line class="grid" x1="170" y1="188" x2="730" y2="188"/>
+<circle class="ring1" cx="508.5" cy="188" r="6"><title>#36 feat(ui): update SVG assets, ui fixes, enhance theme compatibility, add dev preview and refine responsiveness (merged, 2026-07-27)</title></circle>
+<circle class="ring1" cx="516.9" cy="188" r="6"><title>#37 feat: implement auto theme inheritance with dev preview support, repo standards, brand assets &amp; animations (merged, 2026-07-31)</title></circle>
+<circle class="ring1" cx="544.0" cy="188" r="6"><title>#44 feat: update brand assets, dev preview header, and GSoC midterm compliance (merged, 2026-08-13)</title></circle>
+<circle class="ring1" cx="700.7" cy="188" r="6"><title>#47 Follow-ups from #44 review, dev preview SEO and tooling fixes (merged, 2026-10-27)</title></circle>
+<circle class="ring1" cx="711.2" cy="188" r="6"><title>#49 Release 2.3.0: scoped CSS, legal pages, security fixes and full test coverage (merged, 2026-11-01)</title></circle>
+<text class="label" x="158" y="222" text-anchor="end">Next.js Template</text>
+<line class="grid" x1="170" y1="218" x2="730" y2="218"/>
+<circle class="ring1" cx="510.6" cy="218" r="6"><title>#11 feat(template): upgrade template repo with webpage-starter architecture, i18n, and client-side pages (merged, 2026-07-28)</title></circle>
+<circle class="ring1" cx="516.9" cy="218" r="6"><title>#12 refactor(branding,docs): configure static export, relocate brand folder to public/brand and update bootstrap setup checklist (merged, 2026-07-31)</title></circle>
+<circle class="ring1" cx="531.5" cy="218" r="6"><title>#13 feat: adding suggested maintainers.md and fixing rendering issues in readme.md (merged, 2026-08-07)</title></circle>
+<circle class="ring1" cx="544.0" cy="218" r="6"><title>#14 fix(ci): update workflow triggers, static i18n export, and deployment checks (merged, 2026-08-13)</title></circle>
+<text class="label" x="158" y="252" text-anchor="end">PictoPy</text>
+<line class="grid" x1="170" y1="248" x2="730" y2="248"/>
+<circle class="ring1" cx="516.9" cy="248" r="6"><title>#28 Intial commit to kickstart the new-design for PictoPy website (merged, 2026-07-31)</title></circle>
+<circle class="ring1" cx="638.1" cy="248" r="6"><title>#35 feat: complete homepage redesign with full content, FAQ, footer, and … (merged, 2026-09-27)</title></circle>
+<circle class="ring1" cx="700.7" cy="248" r="6"><title>#36 Release the redesign: merge new-design into main with the GSoC checklist pass (merged, 2026-10-27)</title></circle>
+<circle class="ring1" cx="700.7" cy="248" r="6"><title>#37 ci: fix Pages deploy and Scorecard after #36 (merged, 2026-10-27)</title></circle>
+<circle class="ring1" cx="711.2" cy="248" r="6"><title>#40 Final GSoC checklist: legal and support pages, share button, security fix, full test coverage (merged, 2026-11-01)</title></circle>
+<text class="label" x="158" y="282" text-anchor="end">Brand Kit (Info)</text>
+<line class="grid" x1="170" y1="278" x2="730" y2="278"/>
+<circle class="ring1" cx="531.5" cy="278" r="6"><title>#72 feat: added brand-kit, exported assets and a brand.md (merged, 2026-08-07)</title></circle>
+<circle class="ring1" cx="541.9" cy="278" r="6"><title>#73 doc: added png-to-svg-conversion-guide and updated project logos in directory (merged, 2026-08-12)</title></circle>
+<circle class="ring1" cx="642.2" cy="278" r="6"><title>#78 feat: added intro video in different qualities &amp;  adjusted the Project Icons folder location (merged, 2026-09-29)</title></circle>
+<text class="label" x="158" y="312" text-anchor="end">Zplit</text>
+<line class="grid" x1="170" y1="308" x2="730" y2="308"/>
+<circle class="ring1" cx="531.5" cy="308" r="6"><title>#22 feat:Initial commit for website kickstart based on Template-Repo-NextJS (merged, 2026-08-07)</title></circle>
+<circle class="ring1" cx="579.6" cy="308" r="6"><title>#24 feat: added hero-section and innovation section (merged, 2026-08-30)</title></circle>
+<circle class="ring1" cx="667.3" cy="308" r="6"><title>#42 feat: implement features showcase, interactive FAQ, and animated footer     (merged, 2026-10-11)</title></circle>
+<circle class="ring1" cx="671.5" cy="308" r="6"><title>#45 feat: merge new design into main (merged, 2026-10-13)</title></circle>
+<circle class="ring3" cx="671.5" cy="308" r="6"><title>#46 Fix Pages build failure by aligning `next-intl/config` resolution across bundlers (closed, 2026-10-13)</title></circle>
+<circle class="ring1" cx="671.5" cy="308" r="6"><title>#47 fix(ci): prevent configure-pages from overriding next.config.ts in pages deployment (merged, 2026-10-13)</title></circle>
+<circle class="ring1" cx="700.7" cy="308" r="6"><title>#52 GSoC checklist pass: SEO, tests, accessibility and repo cleanup (merged, 2026-10-27)</title></circle>
+<circle class="ring1" cx="711.2" cy="308" r="6"><title>#60 Final GSoC checklist: legal and support pages, share button, security review, full test coverage (merged, 2026-11-01)</title></circle>
+<text class="label" x="158" y="342" text-anchor="end">Perspective AI</text>
+<line class="grid" x1="170" y1="338" x2="730" y2="338"/>
+<circle class="ring1" cx="633.9" cy="338" r="6"><title>#158 feat: Next.js 15 App Router overhaul, i18n, verified 2026 topics &amp; backend modernization (merged, 2026-09-25)</title></circle>
+<circle class="ring1" cx="671.5" cy="338" r="6"><title>#169 chore(frontend): temporarily disable Impact page from rendering (merged, 2026-10-13)</title></circle>
+<circle class="ring1" cx="700.7" cy="338" r="6"><title>#180 Deployable static frontend, SEO, tests and security update (merged, 2026-10-27)</title></circle>
+<circle class="ring1" cx="711.2" cy="338" r="6"><title>#185 Final GSoC checklist: SSRF fix, legal and support pages, backend and frontend test coverage (merged, 2026-11-01)</title></circle>
+<text class="label" x="158" y="372" text-anchor="end">Social Share Button</text>
+<line class="grid" x1="170" y1="368" x2="730" y2="368"/>
+<circle class="ring1" cx="636.0" cy="368" r="6"><title>#251 feat(website): rebuild landing page on Next.js 16 with i18n, theming and live demo (merged, 2026-09-26)</title></circle>
+<circle class="ring1" cx="700.7" cy="368" r="6"><title>#258 Library test suite, website security update and GSoC checklist pass (merged, 2026-10-27)</title></circle>
+<circle class="ring1" cx="711.2" cy="368" r="6"><title>#261 Release 1.1.0: translatable labels, legal and support pages, security fix and full test coverage (merged, 2026-11-01)</title></circle>
+<circle class="ring1" cx="711.2" cy="368" r="6"><title>#262 fix(website): support widget follows theme changes without a refresh (merged, 2026-11-01)</title></circle>
+<text class="label" x="158" y="402" text-anchor="end">MoveYourBody</text>
+<line class="grid" x1="170" y1="398" x2="730" y2="398"/>
+<circle class="ring1" cx="671.5" cy="398" r="6"><title>#1 feat: complete website redesign, dual theme, i18n, test suite (merged, 2026-10-13)</title></circle>
+<circle class="ring1" cx="700.7" cy="398" r="6"><title>#2 GSoC checklist pass: root SEO, tests, security and docs (merged, 2026-10-27)</title></circle>
+<circle class="ring1" cx="711.2" cy="398" r="6"><title>#10 Final GSoC checklist: legal and support pages, share button, security review, full test coverage (merged, 2026-11-01)</title></circle>
+<text class="label" x="158" y="432" text-anchor="end">Peer reviews</text>
+<line class="grid" x1="170" y1="428" x2="730" y2="428"/>
+<circle class="ring1" cx="711.2" cy="428" r="6"><title>#21 docs: add peer review report (merged, 2026-11-01)</title></circle>
+<circle class="ring1" cx="711.2" cy="428" r="6"><title>#80 docs: add peer review report (merged, 2026-11-01)</title></circle>
+</svg>

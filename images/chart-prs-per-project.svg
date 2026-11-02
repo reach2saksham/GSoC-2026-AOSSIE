@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" width="760" height="540" class="viz" role="img" aria-label="Pull requests per project, merged and open">
+  <style>
+    .viz { --surface: #fcfcfb; --ink: #0b0b0b; --ink2: #52514e; --muted: #8a8984; --grid: #e6e5e1;
+           --s1: #2a78d6; --s2: #eb6834; --s3: #8a8984; }
+    @media (prefers-color-scheme: dark) {
+      .viz { --surface: #1a1a19; --ink: #f0efec; --ink2: #c3c2b7; --muted: #8f8e88; --grid: #2e2e2c;
+             --s1: #3987e5; --s2: #d95926; --s3: #8f8e88; }
+    }
+    .bg { fill: var(--surface); }
+    text { font-family: -apple-system, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--ink2); font-size: 13px; }
+    .title { fill: var(--ink); font-size: 16px; font-weight: 600; }
+    .sub { fill: var(--muted); font-size: 12px; }
+    .label { fill: var(--ink); }
+    .value { fill: var(--ink2); font-size: 12px; font-variant-numeric: tabular-nums; }
+    .grid { stroke: var(--grid); stroke-width: 1; }
+    .s1 { fill: var(--s1); } .s2 { fill: var(--s2); }
+    .ring1 { fill: var(--s1); stroke: var(--surface); stroke-width: 2; }
+    .ring2 { fill: none; stroke: var(--s2); stroke-width: 2; }
+    .ring3 { fill: none; stroke: var(--s3); stroke-width: 2; stroke-dasharray: 2 2; }
+  </style>
+<rect class="bg" width="760" height="540" rx="12"/>
+<text class="title" x="24" y="34">Pull requests per project</text>
+<text class="sub" x="24" y="54">67 pull requests, including the final-checklist PRs and peer reviews (closed/superseded excluded)</text>
+<rect class="s1" x="170" y="69" width="12" height="12" rx="3"/>
+<text x="188" y="79">Merged</text>
+<line class="grid" x1="170.0" y1="86" x2="170.0" y2="492"/>
+<text class="sub" x="170.0" y="510" text-anchor="middle">0</text>
+<line class="grid" x1="281.4" y1="86" x2="281.4" y2="492"/>
+<text class="sub" x="281.4" y="510" text-anchor="middle">3</text>
+<line class="grid" x1="392.9" y1="86" x2="392.9" y2="492"/>
+<text class="sub" x="392.9" y="510" text-anchor="middle">6</text>
+<line class="grid" x1="504.3" y1="86" x2="504.3" y2="492"/>
+<text class="sub" x="504.3" y="510" text-anchor="middle">9</text>
+<line class="grid" x1="615.7" y1="86" x2="615.7" y2="492"/>
+<text class="sub" x="615.7" y="510" text-anchor="middle">12</text>
+<text class="label" x="158" y="106" text-anchor="end">Resonate</text>
+<path class="s1" d="M170.0,92.0 h516.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-516.0 z"/>
+<text class="value" x="698.0" y="106">14</text>
+<text class="label" x="158" y="140" text-anchor="end">AOSSIE Website</text>
+<path class="s1" d="M170.0,126.0 h404.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-404.6 z"/>
+<text class="value" x="586.6" y="140">11</text>
+<text class="label" x="158" y="174" text-anchor="end">Zplit</text>
+<path class="s1" d="M170.0,160.0 h256.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-256.0 z"/>
+<text class="value" x="438.0" y="174">7</text>
+<text class="label" x="158" y="208" text-anchor="end">PictoPy</text>
+<path class="s1" d="M170.0,194.0 h181.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-181.7 z"/>
+<text class="value" x="363.7" y="208">5</text>
+<text class="label" x="158" y="242" text-anchor="end">Stability Nexus &amp; Djed</text>
+<path class="s1" d="M170.0,228.0 h181.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-181.7 z"/>
+<text class="value" x="363.7" y="242">5</text>
+<text class="label" x="158" y="276" text-anchor="end">Support Us Button</text>
+<path class="s1" d="M170.0,262.0 h181.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-181.7 z"/>
+<text class="value" x="363.7" y="276">5</text>
+<text class="label" x="158" y="310" text-anchor="end">Next.js Template</text>
+<path class="s1" d="M170.0,296.0 h144.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-144.6 z"/>
+<text class="value" x="326.6" y="310">4</text>
+<text class="label" x="158" y="344" text-anchor="end">Perspective AI</text>
+<path class="s1" d="M170.0,330.0 h144.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-144.6 z"/>
+<text class="value" x="326.6" y="344">4</text>
+<text class="label" x="158" y="378" text-anchor="end">Social Share Button</text>
+<path class="s1" d="M170.0,364.0 h144.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-144.6 z"/>
+<text class="value" x="326.6" y="378">4</text>
+<text class="label" x="158" y="412" text-anchor="end">Brand Kit (Info)</text>
+<path class="s1" d="M170.0,398.0 h107.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-107.4 z"/>
+<text class="value" x="289.4" y="412">3</text>
+<text class="label" x="158" y="446" text-anchor="end">MoveYourBody</text>
+<path class="s1" d="M170.0,432.0 h107.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-107.4 z"/>
+<text class="value" x="289.4" y="446">3</text>
+<text class="label" x="158" y="480" text-anchor="end">Peer reviews</text>
+<path class="s1" d="M170.0,466.0 h70.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-70.3 z"/>
+<text class="value" x="252.3" y="480">2</text>
+</svg>

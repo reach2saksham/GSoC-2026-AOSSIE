@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 458" width="760" height="458" class="viz" role="img" aria-label="Lines added per project">
+  <style>
+    .viz { --surface: #fcfcfb; --ink: #0b0b0b; --ink2: #52514e; --muted: #8a8984; --grid: #e6e5e1;
+           --s1: #2a78d6; --s2: #eb6834; --s3: #8a8984; }
+    @media (prefers-color-scheme: dark) {
+      .viz { --surface: #1a1a19; --ink: #f0efec; --ink2: #c3c2b7; --muted: #8f8e88; --grid: #2e2e2c;
+             --s1: #3987e5; --s2: #d95926; --s3: #8f8e88; }
+    }
+    .bg { fill: var(--surface); }
+    text { font-family: -apple-system, "Segoe UI", Inter, Roboto, sans-serif; fill: var(--ink2); font-size: 13px; }
+    .title { fill: var(--ink); font-size: 16px; font-weight: 600; }
+    .sub { fill: var(--muted); font-size: 12px; }
+    .label { fill: var(--ink); }
+    .value { fill: var(--ink2); font-size: 12px; font-variant-numeric: tabular-nums; }
+    .grid { stroke: var(--grid); stroke-width: 1; }
+    .s1 { fill: var(--s1); } .s2 { fill: var(--s2); }
+    .ring1 { fill: var(--s1); stroke: var(--surface); stroke-width: 2; }
+    .ring2 { fill: none; stroke: var(--s2); stroke-width: 2; }
+    .ring3 { fill: none; stroke: var(--s3); stroke-width: 2; stroke-dasharray: 2 2; }
+  </style>
+<rect class="bg" width="760" height="458" rx="12"/>
+<text class="title" x="24" y="34">Lines added per project</text>
+<text class="sub" x="24" y="54">All 67 PRs, branch-sync PRs excluded; includes lockfiles and generated assets</text>
+<text class="label" x="158" y="89" text-anchor="end">AOSSIE Website</text>
+<path class="s1" d="M170.0,76.0 h506.0 a4,4 0 0 1 4,4 v8.0 a4,4 0 0 1 -4,4 h-506.0 z"/>
+<text class="value" x="688.0" y="89">+35.1k</text>
+<text class="label" x="158" y="121" text-anchor="end">Social Share Button</text>
+<path class="s1" d="M170.0,108.0 h390.0 a4,4 0 0 1 4,4 v8.0 a4,4 0 0 1 -4,4 h-390.0 z"/>
+<text class="value" x="572.0" y="121">+27.1k</text>
+<text class="label" x="158" y="153" text-anchor="end">Perspective AI</text>
+<path class="s1" d="M170.0,140.0 h360.2 a4,4 0 0 1 4,4 v8.0 a4,4 0 0 1 -4,4 h-360.2 z"/>
+<text class="value" x="542.2" y="153">+25.1k</text>
+<text class="label" x="158" y="185" text-anchor="end">Resonate</text>
+<path class="s1" d="M170.0,172.0 h241.3 a4,4 0 0 1 4,4 v8.0 a4,4 0 0 1 -4,4 h-241.3 z"/>
+<text class="value" x="423.3" y="185">+16.9k</text>
+<text class="label" x="158" y="217" text-anchor="end">Zplit</text>
+<path class="s1" d="M170.0,204.0 h240.0 a4,4 0 0 1 4,4 v8.0 a4,4 0 0 1 -4,4 h-240.0 z"/>
+<text class="value" x="422.0" y="217">+16.8k</text>
+<text class="label" x="158" y="249" text-anchor="end">MoveYourBody</text>
+<path class="s1" d="M170.0,236.0 h203.0 a4,4 0 0 1 4,4 v8.0 a4,4 0 0 1 -4,4 h-203.0 z"/>
+<text class="value" x="385.0" y="249">+14.3k</text>
+<text class="label" x="158" y="281" text-anchor="end">PictoPy</text>
+<path class="s1" d="M170.0,268.0 h178.4 a4,4 0 0 1 4,4 v8.0 a4,4 0 0 1 -4,4 h-178.4 z"/>
+<text class="value" x="360.4" y="281">+12.6k</text>
+<text class="label" x="158" y="313" text-anchor="end">Support Us Button</text>
+<path class="s1" d="M170.0,300.0 h136.9 a4,4 0 0 1 4,4 v8.0 a4,4 0 0 1 -4,4 h-136.9 z"/>
+<text class="value" x="318.9" y="313">+9.7k</text>
+<text class="label" x="158" y="345" text-anchor="end">Next.js Template</text>
+<path class="s1" d="M170.0,332.0 h49.3 a4,4 0 0 1 4,4 v8.0 a4,4 0 0 1 -4,4 h-49.3 z"/>
+<text class="value" x="231.3" y="345">+3.7k</text>
+<text class="label" x="158" y="377" text-anchor="end">Brand Kit (Info)</text>
+<path class="s1" d="M170.0,364.0 h16.1 a4,4 0 0 1 4,4 v8.0 a4,4 0 0 1 -4,4 h-16.1 z"/>
+<text class="value" x="198.1" y="377">+1.4k</text>
+<text class="label" x="158" y="409" text-anchor="end">Peer reviews</text>
+<path class="s1" d="M170.0,396.0 h1.1 a1.059959002391527,1.059959002391527 0 0 1 1.059959002391527,1.059959002391527 v13.9 a1.059959002391527,1.059959002391527 0 0 1 -1.059959002391527,1.059959002391527 h-1.1 z"/>
+<text class="value" x="180.1" y="409">+146</text>
+</svg>
