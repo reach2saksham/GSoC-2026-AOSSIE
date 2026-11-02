@@ -1,7 +1,7 @@
 # Google Summer of Code 2026 · Final Report
 
 <p align="center">
-  <img src="myimages/image%20301.png" alt="AOSSIE Google Summer of Code report cover: the AOSSIE wordmark over an outline of Australia, created by Saksham Jain, 1 November 2026" width="900"/>
+  <img src="myimages/cover.png" alt="AOSSIE Google Summer of Code report cover: the AOSSIE wordmark over an outline of Australia, created by Saksham Jain, 1 November 2026" width="900"/>
 </p>
 
 
@@ -104,7 +104,7 @@ This table follows my weekly plan, including the changes my mentors and I agreed
 ### 3.1 Resonate · [resonate.aossie.org](https://resonate.aossie.org)
 
 <p align="center">
-  <img src="myimages/Frame%202147227495.png" alt="Resonate website: 'The Open-Source Voice of the Internet' hero with a phone showing the app's QR code" width="900"/>
+  <img src="myimages/resonate.png" alt="Resonate website: 'The Open-Source Voice of the Internet' hero with a phone showing the app's QR code" width="900"/>
 </p>
 
 **What I shipped** ([#321](https://github.com/AOSSIE-Org/Resonate-Website/pull/321), [#325](https://github.com/AOSSIE-Org/Resonate-Website/pull/325), [#327](https://github.com/AOSSIE-Org/Resonate-Website/pull/327), [#351](https://github.com/AOSSIE-Org/Resonate-Website/pull/351), [#368](https://github.com/AOSSIE-Org/Resonate-Website/pull/368), [#369](https://github.com/AOSSIE-Org/Resonate-Website/pull/369), [#370](https://github.com/AOSSIE-Org/Resonate-Website/pull/370), [#373](https://github.com/AOSSIE-Org/Resonate-Website/pull/373), [#384](https://github.com/AOSSIE-Org/Resonate-Website/pull/384), [#387](https://github.com/AOSSIE-Org/Resonate-Website/pull/387), [#389](https://github.com/AOSSIE-Org/Resonate-Website/pull/389), [#391](https://github.com/AOSSIE-Org/Resonate-Website/pull/391), [#401](https://github.com/AOSSIE-Org/Resonate-Website/pull/401), [#411](https://github.com/AOSSIE-Org/Resonate-Website/pull/411), [Figma](https://www.figma.com/design/7tHcjQQSoGGL2jZfs5OzQK/GSoC-AOSSIE-Designs-Public?node-id=4-5856))
@@ -125,8 +125,8 @@ Before building any site, I needed one source of truth for the brand. I set up a
 | [GSoC AOSSIE Designs (public)](https://www.figma.com/design/7tHcjQQSoGGL2jZfs5OzQK/GSoC-AOSSIE-Designs-Public?node-id=0-1) | Every landing-page design from this summer, linked page by page below |
 
 <table><tr>
-<td width="50%" align="center"><a href="https://www.figma.com/design/ywJ3jFa67bdQsN5XczrHy3/AOSSIE-s-Brand-Kit?node-id=0-1"><img src="myimages/image%20300.png" alt="AOSSIE Brand Kit in Figma: slides for the introduction, logos, dark and light variations, colour scheme and typography"/></a><br/><b>Brand Kit</b></td>
-<td width="50%" align="center"><a href="https://www.figma.com/design/cQCpSQv0M6FAc62ncunx8s/Logos-Hub?node-id=2048-293"><img src="myimages/image%20299.png" alt="AOSSIE Logos Hub in Figma: usage and export guidance above a grid of AOSSIE, Stability Nexus and project logos"/></a><br/><b>Logos Hub</b></td>
+<td width="50%" align="center"><a href="https://www.figma.com/design/ywJ3jFa67bdQsN5XczrHy3/AOSSIE-s-Brand-Kit?node-id=0-1"><img src="myimages/brand-kit.png" alt="AOSSIE Brand Kit in Figma: slides for the introduction, logos, dark and light variations, colour scheme and typography"/></a><br/><b>Brand Kit</b></td>
+<td width="50%" align="center"><a href="https://www.figma.com/design/cQCpSQv0M6FAc62ncunx8s/Logos-Hub?node-id=2048-293"><img src="myimages/logos-hub.png" alt="AOSSIE Logos Hub in Figma: usage and export guidance above a grid of AOSSIE, Stability Nexus and project logos"/></a><br/><b>Logos Hub</b></td>
 </tr></table>
 
 **Pages inside *GSoC AOSSIE Designs*:**
@@ -172,14 +172,14 @@ Before building any site, I needed one source of truth for the brand. I set up a
 An animated intro for AOSSIE, built from the brand kit's colours and the logo, for videos, events and social media. It's in the `Info` repo in several qualities ([Info #78](https://github.com/AOSSIE-Org/Info/pull/78)).
 
 <p align="center">
-  <a href="https://github.com/AOSSIE-Org/Info/blob/main/Brand/Media%20Assets/AOSSIE%20Intro%20Video/intro_1080p.mp4"><img src="myimages/image%20302.png" alt="Frame from the AOSSIE intro video: golden binary code raining down a black background. Click to watch the video." width="900"/></a>
+  <a href="https://github.com/AOSSIE-Org/Info/blob/main/Brand/Media%20Assets/AOSSIE%20Intro%20Video/intro_1080p.mp4"><img src="myimages/aossie-intro-video.png" alt="Frame from the AOSSIE intro video: golden binary code raining down a black background. Click to watch the video." width="900"/></a>
 </p>
 <p align="center"><a href="https://github.com/AOSSIE-Org/Info/blob/main/Brand/Media%20Assets/AOSSIE%20Intro%20Video/intro_1080p.mp4">▶️ Watch the intro video (1080p)</a></p>
 
 ### 3.3 Support Us Button · [Live](https://aossie-org.github.io/SupportUsButton/) · [npm](https://www.npmjs.com/package/support-us-button)
 
 <p align="center">
-  <img src="myimages/Frame%202147227496.png" alt="Support Us Button: the support section with the project and AOSSIE cards" width="900"/>
+  <img src="myimages/support-us-button.png" alt="Support Us Button: the support section with the project and AOSSIE cards" width="900"/>
 </p>
 
 **What I shipped** ([#32](https://github.com/AOSSIE-Org/SupportUsButton/pull/32), [#36](https://github.com/AOSSIE-Org/SupportUsButton/pull/36), [#37](https://github.com/AOSSIE-Org/SupportUsButton/pull/37), [#44](https://github.com/AOSSIE-Org/SupportUsButton/pull/44), [#47](https://github.com/AOSSIE-Org/SupportUsButton/pull/47), [#49](https://github.com/AOSSIE-Org/SupportUsButton/pull/49), [Figma](https://www.figma.com/design/7tHcjQQSoGGL2jZfs5OzQK/GSoC-AOSSIE-Designs-Public?node-id=76-915))
@@ -191,7 +191,7 @@ Support Us Button has to look at home on someone else's website. It reads the ho
 ### 3.4 AOSSIE Website · [aossie.org](https://aossie.org)
 
 <p align="center">
-  <img src="myimages/Frame%202147227503.png" alt="AOSSIE website home page: 'A Fair Go Through Open Source' hero with a diagram of AOSSIE's projects" width="900"/>
+  <img src="myimages/aossie-website.png" alt="AOSSIE website home page: 'A Fair Go Through Open Source' hero with a diagram of AOSSIE's projects" width="900"/>
 </p>
 
 **What I shipped** ([#712](https://github.com/AOSSIE-Org/Website/pull/712), [#714](https://github.com/AOSSIE-Org/Website/pull/714), [#716](https://github.com/AOSSIE-Org/Website/pull/716), [#732](https://github.com/AOSSIE-Org/Website/pull/732), [#737](https://github.com/AOSSIE-Org/Website/pull/737), [#739](https://github.com/AOSSIE-Org/Website/pull/739), [#740](https://github.com/AOSSIE-Org/Website/pull/740), [#741](https://github.com/AOSSIE-Org/Website/pull/741), [#744](https://github.com/AOSSIE-Org/Website/pull/744), [#745](https://github.com/AOSSIE-Org/Website/pull/745), [#749](https://github.com/AOSSIE-Org/Website/pull/749), [#759](https://github.com/AOSSIE-Org/Website/pull/759), [Figma](https://www.figma.com/design/7tHcjQQSoGGL2jZfs5OzQK/GSoC-AOSSIE-Designs-Public?node-id=5-5857))
@@ -201,7 +201,7 @@ The AOSSIE Website is the front door for every contributor, GSoC applicant and p
 ### 3.5 PictoPy · [pictopy.aossie.org](https://pictopy.aossie.org)
 
 <p align="center">
-  <img src="myimages/Frame%202147227501.png" alt="PictoPy website: 'The most advanced Open-Source Gallery' hero with download buttons and an app mockup" width="900"/>
+  <img src="myimages/pictopy.png" alt="PictoPy website: 'The most advanced Open-Source Gallery' hero with download buttons and an app mockup" width="900"/>
 </p>
 
 **What I shipped** ([#28](https://github.com/AOSSIE-Org/PictoPy-Website/pull/28), [#29](https://github.com/AOSSIE-Org/PictoPy-Website/pull/29), [#35](https://github.com/AOSSIE-Org/PictoPy-Website/pull/35), [#36](https://github.com/AOSSIE-Org/PictoPy-Website/pull/36), [#37](https://github.com/AOSSIE-Org/PictoPy-Website/pull/37), [#40](https://github.com/AOSSIE-Org/PictoPy-Website/pull/40))
@@ -211,7 +211,7 @@ PictoPy's site moved from Vite to the shared Next.js template and got a full red
 ### 3.6 Zplit · [zplit.aossie.org](https://zplit.aossie.org)
 
 <p align="center">
-  <img src="myimages/image%20289.png" alt="Zplit website: 'Split Expenses without Servers' hero with the app on a phone" width="900"/>
+  <img src="myimages/zplit.png" alt="Zplit website: 'Split Expenses without Servers' hero with the app on a phone" width="900"/>
 </p>
 
 **What I shipped** ([#22](https://github.com/AOSSIE-Org/Zplit-Website/pull/22), [#24](https://github.com/AOSSIE-Org/Zplit-Website/pull/24), [#42](https://github.com/AOSSIE-Org/Zplit-Website/pull/42), [#45](https://github.com/AOSSIE-Org/Zplit-Website/pull/45), [#46](https://github.com/AOSSIE-Org/Zplit-Website/pull/46), [#47](https://github.com/AOSSIE-Org/Zplit-Website/pull/47), [#52](https://github.com/AOSSIE-Org/Zplit-Website/pull/52), [#60](https://github.com/AOSSIE-Org/Zplit-Website/pull/60), [Figma](https://www.figma.com/design/7tHcjQQSoGGL2jZfs5OzQK/GSoC-AOSSIE-Designs-Public?node-id=2816-30))
@@ -221,7 +221,7 @@ Zplit splits expenses without servers, so its site leans into play: animated app
 ### 3.7 Perspective AI
 
 <p align="center">
-  <img src="myimages/image%20288.png" alt="Perspective AI home page: 'See the other side of every story' with the article link box and the 3D globe" width="900"/>
+  <img src="myimages/perspective-ai.png" alt="Perspective AI home page: 'See the other side of every story' with the article link box and the 3D globe" width="900"/>
 </p>
 
 **What I shipped** ([#158](https://github.com/AOSSIE-Org/Perspective/pull/158), [#169](https://github.com/AOSSIE-Org/Perspective/pull/169), [#180](https://github.com/AOSSIE-Org/Perspective/pull/180), [#185](https://github.com/AOSSIE-Org/Perspective/pull/185), [Figma](https://www.figma.com/design/7tHcjQQSoGGL2jZfs5OzQK/GSoC-AOSSIE-Designs-Public?node-id=3-79224))
@@ -231,7 +231,7 @@ Perspective AI was the centrepiece: a 0-to-1 rebuild of both its frontend and it
 ### 3.8 MoveYourBody · [move.aossie.org](https://move.aossie.org)
 
 <p align="center">
-  <img src="myimages/Frame%202147227504.png" alt="MoveYourBody website: 'Your Body in Motion. Your Data in Control.' hero" width="900"/>
+  <img src="myimages/moveyourbody.png" alt="MoveYourBody website: 'Your Body in Motion. Your Data in Control.' hero" width="900"/>
 </p>
 
 **What I shipped** ([#1](https://github.com/AOSSIE-Org/MoveYourBody-Website/pull/1), [#2](https://github.com/AOSSIE-Org/MoveYourBody-Website/pull/2), [#10](https://github.com/AOSSIE-Org/MoveYourBody-Website/pull/10), [Figma](https://www.figma.com/design/7tHcjQQSoGGL2jZfs5OzQK/GSoC-AOSSIE-Designs-Public?node-id=2889-323))
@@ -241,7 +241,7 @@ MoveYourBody had no website, so this one started from a blank Figma page. It fee
 ### 3.9 Social Share Button · [social-share-button.aossie.org](https://social-share-button.aossie.org) · [npm](https://www.npmjs.com/package/@aossie-org/social-share-button)
 
 <p align="center">
-  <img src="myimages/Frame%202147227505.png" alt="Social Share Button website: library overview, npm install command and installation steps" width="900"/>
+  <img src="myimages/social-share-button.png" alt="Social Share Button website: library overview, npm install command and installation steps" width="900"/>
 </p>
 
 **What I shipped** ([#251](https://github.com/AOSSIE-Org/SocialShareButton/pull/251), [#258](https://github.com/AOSSIE-Org/SocialShareButton/pull/258), [#261](https://github.com/AOSSIE-Org/SocialShareButton/pull/261), [#262](https://github.com/AOSSIE-Org/SocialShareButton/pull/262), [Figma](https://www.figma.com/design/7tHcjQQSoGGL2jZfs5OzQK/GSoC-AOSSIE-Designs-Public?node-id=1-3459))
