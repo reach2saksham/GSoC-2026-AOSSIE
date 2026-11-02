@@ -66,6 +66,7 @@
 <circle class="ring1" cx="541.9" cy="128" r="6"><title>#391 fix(ci): resolve merge conflicts and sync dev with main (merged, 2026-08-12)</title></circle>
 <circle class="ring1" cx="700.7" cy="128" r="6"><title>#401 perf/a11y polish + GSoC completion checklist (root SEO, tests, security policy, Scorecard) (merged, 2026-10-27)</title></circle>
 <circle class="ring1" cx="711.2" cy="128" r="6"><title>#411 Final GSoC checklist: legal and support pages, share button, deep links, security review, full test coverage (merged, 2026-11-01)</title></circle>
+<circle class="ring1" cx="713.3" cy="128" r="6"><title>#412 fix(ci): stop configure-pages from overriding next.config.ts (merged, 2026-11-02)</title></circle>
 <text class="label" x="158" y="162" text-anchor="end">AOSSIE Website</text>
 <line class="grid" x1="170" y1="158" x2="730" y2="158"/>
 <circle class="ring1" cx="253.6" cy="158" r="6"><title>#712 fix: added the missing green colour from the pulsating timeline dot animation in apply page (merged, 2026-03-27)</title></circle>

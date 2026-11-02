@@ -20,7 +20,7 @@
   </style>
 <rect class="bg" width="760" height="458" rx="12"/>
 <text class="title" x="24" y="34">Lines added per project</text>
-<text class="sub" x="24" y="54">All 67 PRs, branch-sync PRs excluded; includes lockfiles and generated assets</text>
+<text class="sub" x="24" y="54">All 68 PRs, branch-sync PRs excluded; includes lockfiles and generated assets</text>
 <text class="label" x="158" y="89" text-anchor="end">AOSSIE Website</text>
 <path class="s1" d="M170.0,76.0 h506.0 a4,4 0 0 1 4,4 v8.0 a4,4 0 0 1 -4,4 h-506.0 z"/>
 <text class="value" x="688.0" y="89">+35.1k</text>

@@ -20,53 +20,55 @@
   </style>
 <rect class="bg" width="760" height="540" rx="12"/>
 <text class="title" x="24" y="34">Pull requests per project</text>
-<text class="sub" x="24" y="54">67 pull requests, including the final-checklist PRs and peer reviews (closed/superseded excluded)</text>
+<text class="sub" x="24" y="54">68 pull requests, including the final-checklist PRs and peer reviews (closed/superseded excluded)</text>
 <rect class="s1" x="170" y="69" width="12" height="12" rx="3"/>
 <text x="188" y="79">Merged</text>
 <line class="grid" x1="170.0" y1="86" x2="170.0" y2="492"/>
 <text class="sub" x="170.0" y="510" text-anchor="middle">0</text>
-<line class="grid" x1="281.4" y1="86" x2="281.4" y2="492"/>
-<text class="sub" x="281.4" y="510" text-anchor="middle">3</text>
-<line class="grid" x1="392.9" y1="86" x2="392.9" y2="492"/>
-<text class="sub" x="392.9" y="510" text-anchor="middle">6</text>
-<line class="grid" x1="504.3" y1="86" x2="504.3" y2="492"/>
-<text class="sub" x="504.3" y="510" text-anchor="middle">9</text>
-<line class="grid" x1="615.7" y1="86" x2="615.7" y2="492"/>
-<text class="sub" x="615.7" y="510" text-anchor="middle">12</text>
+<line class="grid" x1="274.0" y1="86" x2="274.0" y2="492"/>
+<text class="sub" x="274.0" y="510" text-anchor="middle">3</text>
+<line class="grid" x1="378.0" y1="86" x2="378.0" y2="492"/>
+<text class="sub" x="378.0" y="510" text-anchor="middle">6</text>
+<line class="grid" x1="482.0" y1="86" x2="482.0" y2="492"/>
+<text class="sub" x="482.0" y="510" text-anchor="middle">9</text>
+<line class="grid" x1="586.0" y1="86" x2="586.0" y2="492"/>
+<text class="sub" x="586.0" y="510" text-anchor="middle">12</text>
+<line class="grid" x1="690.0" y1="86" x2="690.0" y2="492"/>
+<text class="sub" x="690.0" y="510" text-anchor="middle">15</text>
 <text class="label" x="158" y="106" text-anchor="end">Resonate</text>
 <path class="s1" d="M170.0,92.0 h516.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-516.0 z"/>
-<text class="value" x="698.0" y="106">14</text>
+<text class="value" x="698.0" y="106">15</text>
 <text class="label" x="158" y="140" text-anchor="end">AOSSIE Website</text>
-<path class="s1" d="M170.0,126.0 h404.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-404.6 z"/>
-<text class="value" x="586.6" y="140">11</text>
+<path class="s1" d="M170.0,126.0 h377.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-377.3 z"/>
+<text class="value" x="559.3" y="140">11</text>
 <text class="label" x="158" y="174" text-anchor="end">Zplit</text>
-<path class="s1" d="M170.0,160.0 h256.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-256.0 z"/>
-<text class="value" x="438.0" y="174">7</text>
+<path class="s1" d="M170.0,160.0 h238.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-238.7 z"/>
+<text class="value" x="420.7" y="174">7</text>
 <text class="label" x="158" y="208" text-anchor="end">PictoPy</text>
-<path class="s1" d="M170.0,194.0 h181.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-181.7 z"/>
-<text class="value" x="363.7" y="208">5</text>
+<path class="s1" d="M170.0,194.0 h169.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-169.3 z"/>
+<text class="value" x="351.3" y="208">5</text>
 <text class="label" x="158" y="242" text-anchor="end">Stability Nexus &amp; Djed</text>
-<path class="s1" d="M170.0,228.0 h181.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-181.7 z"/>
-<text class="value" x="363.7" y="242">5</text>
+<path class="s1" d="M170.0,228.0 h169.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-169.3 z"/>
+<text class="value" x="351.3" y="242">5</text>
 <text class="label" x="158" y="276" text-anchor="end">Support Us Button</text>
-<path class="s1" d="M170.0,262.0 h181.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-181.7 z"/>
-<text class="value" x="363.7" y="276">5</text>
+<path class="s1" d="M170.0,262.0 h169.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-169.3 z"/>
+<text class="value" x="351.3" y="276">5</text>
 <text class="label" x="158" y="310" text-anchor="end">Next.js Template</text>
-<path class="s1" d="M170.0,296.0 h144.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-144.6 z"/>
-<text class="value" x="326.6" y="310">4</text>
+<path class="s1" d="M170.0,296.0 h134.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-134.7 z"/>
+<text class="value" x="316.7" y="310">4</text>
 <text class="label" x="158" y="344" text-anchor="end">Perspective AI</text>
-<path class="s1" d="M170.0,330.0 h144.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-144.6 z"/>
-<text class="value" x="326.6" y="344">4</text>
+<path class="s1" d="M170.0,330.0 h134.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-134.7 z"/>
+<text class="value" x="316.7" y="344">4</text>
 <text class="label" x="158" y="378" text-anchor="end">Social Share Button</text>
-<path class="s1" d="M170.0,364.0 h144.6 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-144.6 z"/>
-<text class="value" x="326.6" y="378">4</text>
+<path class="s1" d="M170.0,364.0 h134.7 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-134.7 z"/>
+<text class="value" x="316.7" y="378">4</text>
 <text class="label" x="158" y="412" text-anchor="end">Brand Kit (Info)</text>
-<path class="s1" d="M170.0,398.0 h107.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-107.4 z"/>
-<text class="value" x="289.4" y="412">3</text>
+<path class="s1" d="M170.0,398.0 h100.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-100.0 z"/>
+<text class="value" x="282.0" y="412">3</text>
 <text class="label" x="158" y="446" text-anchor="end">MoveYourBody</text>
-<path class="s1" d="M170.0,432.0 h107.4 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-107.4 z"/>
-<text class="value" x="289.4" y="446">3</text>
+<path class="s1" d="M170.0,432.0 h100.0 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-100.0 z"/>
+<text class="value" x="282.0" y="446">3</text>
 <text class="label" x="158" y="480" text-anchor="end">Peer reviews</text>
-<path class="s1" d="M170.0,466.0 h70.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-70.3 z"/>
-<text class="value" x="252.3" y="480">2</text>
+<path class="s1" d="M170.0,466.0 h65.3 a4,4 0 0 1 4,4 v10.0 a4,4 0 0 1 -4,4 h-65.3 z"/>
+<text class="value" x="247.3" y="480">2</text>
 </svg>

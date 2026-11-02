@@ -1,6 +1,6 @@
 | Project | Merged | Open | Lines added |
 |---|---:|---:|---:|
-| Resonate | 14 | 0 | +16,893 |
+| Resonate | 15 | 0 | +16,894 |
 | AOSSIE Website | 11 | 0 | +35,124 |
 | Zplit | 7 | 0 | +16,801 |
 | PictoPy | 5 | 0 | +12,560 |
